@@ -1,0 +1,61 @@
+@font-face {
+    font-family: tiny5;
+    src: url("Tiny5-Regular.ttf");
+}
+
+:root {
+    --accent-color: #fc8405;
+}
+
+html, body {
+    font-family: tiny5, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 0;
+    font-size: 20px;
+    background-color: #fffbe6;
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: black;
+    cursor: pointer;
+}
+h1:hover {
+    color: var(--accent-color);
+}
+
+button {
+    font-family: tiny5, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+    color: var(--accent-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+a:link {
+    text-decoration: underline;
+}
+a:hover {
+    color: black;
+}
+  
