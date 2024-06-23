@@ -24,6 +24,8 @@ h1 {
     margin-bottom: 10px;
     color: black;
     cursor: pointer;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 h1:hover {
     color: var(--accent-color);

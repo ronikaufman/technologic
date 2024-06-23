@@ -14,7 +14,7 @@ function speak(txt) {
     const utterance = new SpeechSynthesisUtterance(txt);
 
     const voices = speechSynthesis.getVoices();
-    utterance.voice = voices[0];
+    utterance.voice = voices[~~(Math.random()*voices.length)];
 
     utterance.pitch = 2;
     utterance.rate = 1.5;
